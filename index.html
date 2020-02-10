@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Windoorex</title>
+
+<link rel="shortcut icon" href="images/favicon.ico" >
+
+<link href="css/reset-min.css" rel="stylesheet" type="text/css" />
+<link href="css/fonts-min.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+		<!--[if lte IE 8]>
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
+		
+		<!-- Use jQuery for best compatibility with other CSS3 enabled browsers -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/flux.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				if(!flux.browser.supportsTransitions)
+					alert("Flux Slider requires a browser that supports CSS3 transitions");
+					
+				window.f = new flux.slider('#slider', {
+					pagination: false,
+					controls: true,
+					transitions: ['bars3d'],
+					autoplay: true
+				});
+				
+				$('.transitions').click(function(event){
+					event.preventDefault();
+					window.f.next($(event.target).data('transition'), $(event.target).data('params'));
+				});
+			});
+		</script>
+
+
+</head>
+<body>
+	<div id="wrapper">
+    	<div id="topnav">
+            <a href="">Book Stand</a> | <a href="">Visitor Registration</a> | <a href="">Contact Us</a>
+            <form>
+                <input type="text" placeholder="Search" />
+                <input type="submit" value="" />
+            </form>
+        </div><!-- end top nav -->
+        <div class="clr"></div><!-- end clear -->
+        <div class="uppershadowup"></div><!-- end upper shadow -->
+        <div id="container">
+        	<div id="header">
+            	<div id="logo">
+                	<a href=""><img src="images/logo.png" width="600" height="112" title="Windoorex" alt="Windoorex Logo"  /></a>
+                </div><!-- end logo -->
+                <div id="slinks">
+                	<a href=""><img src="images/socials/fb 32 32.png" width="32" height="32" title="Like us" alt="Windoorex FB"  /></a>
+                    <a href=""><img src="images/socials/tw 32 32.png" width="32" height="32" title="Follow us" alt="Windoorex TW"  /></a>
+                    <a href=""><img src="images/socials/sk 32 32.png" width="32" height="32" title="SK us" alt="Windoorex Skype"  /></a>
+                    <a href=""><img src="images/socials/rss 32 32.png" width="32" height="32" title="RSS us" alt="Windoorex RSS"  /></a>
+                    <a href=""><img src="images/socials/fl 32 32.png" width="32" height="32" title="FL su" alt="Windoorex FL"  /></a>
+                </div><!-- end social links -->
+            </div><!-- end header -->
+            <div class="clr"></div><!-- end clear -->
+            <div id="menu">
+            	<ul>
+                	<li><a href="">Welcome</a></li>
+                    <li><a href="">Fact Sheet</a></li>
+                    <li><a href="">Exhibitor</a>
+                    	<ul>
+                            <li><a href="">Exhibitor Profile</a></li>
+                            <li><a href="">Book a Stand</a></li>
+                            <li><a href="">Exhibitor List</a></li>            			
+                            <li><a href="">Sponsorship</a></li>
+                            <li><a href="">Booth Specifications</a></li>
+                            <li><a href="">Decoration Contractor</a></li>
+                            <li><a href="">Overseas Contacts</a></li>
+            			</ul>
+                    </li>
+                    <li><a href="">Visitor</a>
+                    	<ul>
+                            <li><a href="">Visitor Profile</a></li>
+                            <li><a href="">Visitor Registration</a></li>
+            			</ul>
+                    </li>
+                    <li><a href="">Show Venue</a></li>
+                    <li><a href="">Market Background</a></li>
+                    <li><a href="">Organizer</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div><!-- end menu -->
+            <div class="clr"></div><!-- end clear -->
+            <div id="slider">
+            	<img src="images/slide_1.jpg" width="970" height="260" alt="" title="" />
+                <img src="images/slide_2.jpg" width="970" height="260" alt="" title="" />
+                <img src="images/slide_3.jpg" width="970" height="260" alt="" title="" />
+            </div><!-- end slider -->
+            <div class="clr"></div><!-- end clear -->
+            <div id="contents">
+            	<div id="left_contents">
+                	<div class="h1bg">
+                    	<h1>WinDoorEX Middle East 2014 :</h1>
+                    </div>
+                    <img src="images/contents/up/left/left box 1.jpg" width="496" height="227" style="margin:20px 10px 10px;"/>
+                    <img src="images/contents/up/left/left box 2.jpg" width="279" height="152" />
+                    <p>
+                    Windoorex Middle East 2014, the 5th International Exhibition on Windows, Doors, Facades, Skylights and Curtain Wall Technology, Components and Prefabricated Units. Now in its 5th edition and continues to expand and attract thousands of potential visitors, and this year's event will confirm firmly to provide the only “one-stop” event in the entire Middle East, backed by media with a long term commitment to the region, and not just a “here today, gone tomorrow” approach.
+                    </p><br />
+                    <p>
+Windoorex Middle East 2014 will come at a time when the MENA region will have emerged from a period of immense change. This has put MENA firmly back on the map as a destination in which the business environment has greatly improved, with many analysts marking it the region with the most potential in the remainder of the next decade.
+                    </p><br />
+                    <p>
+The Middle East annual growth rate, the construction sector, which was estimated at around 20% from 2010 to 2014, will also benefit from the many hi-tech architectural projects in the works in the coming years. These projects are characterized by flawless design and refined materials. Further to the growth of domestic and
+                    </p><br />
+                    <img src="images/contents/up/left/www.wellbond.com.eg.png" width="115" height="100" style="margin-right:35px;" />
+                    <img src="images/contents/up/left/www.valveegypt.com.png" width="173" height="100" style="margin-right:20px;" />
+                    <img src="images/contents/up/left/www.eipal.com.png" width="140" height="100" style="margin-right:0;" />
+                </div><!-- end left contents -->
+                <div id="middle_contents">
+                	<div class="h1bg">
+                    	<h1>Sponsored</h1>
+                    </div>
+                    <img src="images/contents/up/middle/Tarek.png" width="194" height="110" />
+                    <img src="images/contents/up/middle/egyplast.jpg" width="194" height="150" />
+                    <img src="images/contents/up/middle/upvcegypt.jpg" width="194" height="64" />
+                    <img src="images/contents/up/middle/Win.png" width="194" height="67" />
+                    <img src="images/contents/up/middle/arabco.jpg" width="194" height="150" />
+                    <img src="images/contents/up/middle/protec.jpg" width="190" height="127" />
+                    <img src="images/contents/up/middle/saintG.jpg" width="194" height="150" />
+                </div><!-- end middle contents -->
+                <div id="right_contents">
+                	<div id="up_right_contents">
+                    	<div class="h1bg">
+                    		<h1>Glass & Aluminium Zone</h1>
+                    	</div>
+                        <img src="images/contents/up/right/up/Glass-Build-and-Aluminium-Zone.jpg" width="190" height="190" />
+                    </div><!-- end up_right_contents -->
+                    <div id="down_right_contents">
+                    	<div class="h1bg">
+                    		<h1>Media Partners</h1>
+                    	</div>
+                        <img src="images/contents/up/right/down/ForumB_Logo.jpg" width="128" height="67" />
+                        <img src="images/contents/up/right/down/ForumBranzowe1.jpg" width="128" height="37" />
+                        <img src="images/contents/up/right/down/Glass.png" width="128" height="67" />
+                        <img src="images/contents/up/right/down/GlassOnWeb_128-67.gif" width="128" height="67" />
+                        <img src="images/contents/up/right/down/stekla.gif" width="128" height="67" />
+                        <img src="images/contents/up/right/down/windomedi.png" width="128" height="68" />
+                    </div><!-- end down_right_contents -->
+                </div><!-- end right contents -->
+            </div><!-- end contents -->
+            <div class="clr"></div><!-- end clear -->
+            <div id="ads">
+            	<img src="images/contents/up/ads3.png" width="300" height="94"  />
+                <img src="images/contents/up/ads3.png" width="300" height="94"  />
+                <img src="images/contents/up/ads3.png" width="300" height="94"  style="margin:0;"/>
+            </div><!-- end ads -->
+        </div><!-- end container -->
+        <div class="lowershadowup"></div><!-- end lower shadow -->
+        <div class="clr"></div><!-- end clear -->
+        <div class="upeershadowdown"></div>
+        <div id="sitemap">
+        	<div class="sitemapmenu">
+            	<ul>
+                    <li><a href="">Welcome</a></li>
+                    <li><a href="">Fact Sheet</a></li>
+                    <li><a href="">Show Venue</a></li>
+                    <li><a href="">Why Egypt</a></li>
+                    <li><a href="">Travel Information</a></li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Organizer</a></li>
+                    <li><a href="">Contact</a></li>
+            	</ul>
+            </div><!-- end site map menu -->
+            <div class="sitemapmenu">
+            	<ul>
+            		<li><a href="">Exhibitor Profile</a></li>
+            		<li><a href="">Book a Stand</a></li>
+            		<li><a href="">Exhibitor List</a></li>            			
+           			<li><a href="">Sponsorship</a></li>
+           			<li><a href="">Marketing Compaign </a></li>
+           			<li><a href="">Exhibition Services </a></li>
+           			<li><a href="">Overseas Contacts</a></li>
+            	</ul>
+            </div><!-- end site map menu -->
+            <div class="sitemapmenu">
+            	<ul>
+            		<li><a href="">Visitor Profile</a></li>
+            		<li><a href="">Visitor Registration</a></li>
+            	</ul>
+            </div><!-- end site map menu -->
+            <div id="sitemaplogo">
+            	<img src="images/logo_win.png" width="220" height="112" />
+            </div><!-- end site map logo -->
+        </div><!-- end site map -->
+        <div class="lowershadowdown"
+        <div class="clr"></div><!-- end clear -->
+        <div id="footer">
+        	Copy rights reserved © <a href="http://www.awebarts.com">awebarts.com</a> 2012
+        </div><!-- end footer -->
+    </div><!-- end wrapper -->
+</body>
+</html>
